@@ -8,7 +8,7 @@ function Home() {
       <p className="lead">Este é seu sistema, ustilize a barra de navegação para acessar as páginas</p>
       <hr></hr>
       <p className="lead">
-        <a className="btn btn-primary btn-lg" >Cadastrar</a>
+      <a className="btn btn-primary btn-lg" href="#" role="button">Cadastrar</a>
       </p>
     </div>
   )
