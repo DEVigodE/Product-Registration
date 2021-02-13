@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a className="navbar-brand">Product</a>
+      <a className="navbar-brand">Produtos</a>
       <button className="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -22,10 +23,10 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" >Register</a>
+            <a className="nav-link" >Cadastro</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">Consult</a>
+            <a className="nav-link">Consulta</a>
           </li>
           {/* <li className="nav-item dropdown show">
             <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Dropdown</a>
